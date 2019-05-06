@@ -1,17 +1,6 @@
 import urllib.request
 import json
 
-def dealMemory(value):
-    global tempMemory
-    if value > 1000:
-        value = value/1000
-        if value > 1000:
-            value = value/1000
-            tempMemory = str('%.2f' % value) + "G"
-        else:
-            tempMemory = str('%.2f' % value) + "M"
-    return tempMemory
-
 def getIlogList(application,listUrl):       
     appName = application["name"]
     managementUrl = application["managementUrl"]
@@ -31,7 +20,7 @@ def getIlogList(application,listUrl):
     nonHeapMemory = json_applicationDetail["nonheap.committed"]
     usedNonHeapMemory = json_applicationDetail["nonheap.used"]
     nonHeapMemoryPercent = usedNonHeapMemory/nonHeapMemory
-
+'''
     ilogApplication = dict(name = appName, id = appId, url = managementUrl[7:-5],
                         memory = dealMemory(memory), usedMemory = dealMemory(usedMemory),
                         memoryPercent = str('%.2f' %(memoryPercent * 100)) + "%",
@@ -41,7 +30,7 @@ def getIlogList(application,listUrl):
                         nonHeapMemoryPercent = str('%.2f' %(nonHeapMemoryPercent * 100)) + "%"
                         )
     return ilogApplication
-
+'''
 def printIlogList(ilogList): 
     print(len(ilogList))
     for ilog in ilogList:
