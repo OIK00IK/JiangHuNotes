@@ -21,8 +21,6 @@ def takeUrl(elem):
 def takeName(elem):
     return elem['name']
 
-
-
 for application in json_applicationList:
     if application["name"].startswith("ILOG"):
         if -1 == str(ilogList).find(str(application["id"]) ):
@@ -55,10 +53,8 @@ for ilogType in ilogList:
 
 
 
-#print(str(ilogList))
 
 
-#parse.printIlogList(ilogList)
 
 
          

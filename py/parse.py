@@ -1,17 +1,6 @@
 import urllib.request
 import json
 
-def dealMemory(value):
-    global tempMemory
-    if value > 1000:
-        value = value/1000
-        if value > 1000:
-            value = value/1000
-            tempMemory = str('%.2f' % value) + "G"
-        else:
-            tempMemory = str('%.2f' % value) + "M"
-    return tempMemory
-
 def getIlogList(application,listUrl):       
     appName = application["name"]
     managementUrl = application["managementUrl"]
