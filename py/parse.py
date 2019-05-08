@@ -1,17 +1,16 @@
 import urllib.request
 import json
-import Application
 
 def dealMemory(value):
-        global tempMemory
+    global tempMemory
+    if value > 1000:
+        value = value/1000
         if value > 1000:
             value = value/1000
-            if value > 1000:
-                value = value/1000
-                tempMemory = str('%.2f' % value) + "G"
-            else:
-                tempMemory = str('%.2f' % value) + "M"
-        return tempMemory
+            tempMemory = str('%.2f' % value) + "G"
+        else:
+            tempMemory = str('%.2f' % value) + "M"
+    return tempMemory
 
 
 def getIlogList(application,listUrl):       
@@ -35,22 +34,15 @@ def getIlogList(application,listUrl):
     usedNonHeapMemory = json_applicationDetail["nonheap.used"]
     nonHeapMemoryPercent = usedNonHeapMemory/nonHeapMemory
 
-    app = Application(appName, url, appId, memory, usedMemory, memoryPercent, 
-     heapMemory, usedHeapMemory, heapMemoryPercent, 
-     nonHeapMemory, usedNonHeapMemory, nonHeapMemoryPercent)
-
-    return app
-'''
     ilogApplication = dict(name = appName, id = appId, url = managementUrl[7:-5],
-                        memory = dealMemory(memory), usedMemory = dealMemory(usedMemory),
-                        memoryPercent = str('%.2f' %(memoryPercent * 100)) + "%",
-                        heapMemory = dealMemory(heapMemory), usedHeapMemory = dealMemory(usedHeapMemory),
-                        heapMemoryPercent = str('%.2f' %(heapMemoryPercent * 100)) + "%",
-                        nonHeapMemory = dealMemory(nonHeapMemory),usedNonHeapMemory = dealMemory(usedNonHeapMemory),
-                        nonHeapMemoryPercent = str('%.2f' %(nonHeapMemoryPercent * 100)) + "%"
-                        )
+    memory = dealMemory(memory), usedMemory = dealMemory(usedMemory),
+    memoryPercent = str('%.2f' %(memoryPercent * 100)) + "%",
+    heapMemory = dealMemory(heapMemory), usedHeapMemory = dealMemory(usedHeapMemory),
+    heapMemoryPercent = str('%.2f' %(heapMemoryPercent * 100)) + "%",
+    nonHeapMemory = dealMemory(nonHeapMemory),usedNonHeapMemory = dealMemory(usedNonHeapMemory),
+    nonHeapMemoryPercent = str('%.2f' %(nonHeapMemoryPercent * 100)) + "%"
+    )
     return ilogApplication
-'''
 
 def printIlogList(ilogList): 
     print(len(ilogList))
@@ -59,3 +51,11 @@ def printIlogList(ilogList):
           + "\t" + ilog['heapMemoryPercent'] + "\t(" + ilog['usedHeapMemory'] + "/" + ilog['heapMemory'] + ")"
           + "\t" + ilog['nonHeapMemoryPercent'] + "\t(" + ilog['usedNonHeapMemory'] + "/" + ilog['nonHeapMemory'] + ")"
         )   
+'''
+    app = Application(appName, url, appId, memory, usedMemory, memoryPercent, 
+     heapMemory, usedHeapMemory, heapMemoryPercent, 
+     nonHeapMemory, usedNonHeapMemory, nonHeapMemoryPercent)
+
+    return app
+'''
+ 
