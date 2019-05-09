@@ -2,8 +2,9 @@ import urllib.request
 import json
 import parse
 
-iapplicationListUrl = "http://support.icore.ccic-net.com.cn/ui/boot-admin/api/applications/"
-applicationListUrl = "http://support.core.ccic-net.com.cn/ui/boot-admin/api/applications/"
+url = ""
+iapplicationListUrl = "http://support.icore." + url + "/ui/boot-admin/api/applications/"
+applicationListUrl = "http://support.core." + url + "/ui/boot-admin/api/applications/"
 
 serviceCode = ""
 
