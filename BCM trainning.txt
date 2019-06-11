@@ -1,6 +1,6 @@
 What is Business Continuity Management?
 
-Hi, I’m David, a Team Lead at one of Accenture’s Business locations.
+Hi, I’m David, a Team Lead at one of company’s Business locations.
 
 I’d like to share with you an incident that occurred in our office last week. I was at the office with my team when an emergency forced us to leave the premises. Due to the emergency, the facility was closed for a few days, impacting our services to the client. Fortunately, we had a business continuity plan in place, and it was activated to support our work from a backup location.
 
@@ -10,29 +10,29 @@ Would you like to know how our team overcame this crisis situation?
 
 Well, the team followed their business continuity plan with support from the Crisis Management team. At the team level, the Managers and Leads knew how to use the plan to support and manage the situation.
 
-Business continuity is an important part of Accenture’s operations, and in this training, I’ll take you through the basics of Accenture’s business continuity management program. This training will help you gain awareness of Accenture’s approach to business continuity, and it will help you understand the importance of effective planning, preparedness and your role in the business continuity program.
+Business continuity is an important part of company’s operations, and in this training, I’ll take you through the basics of company’s business continuity management program. This training will help you gain awareness of company’s approach to business continuity, and it will help you understand the importance of effective planning, preparedness and your role in the business continuity program.
 
 Business continuity management is defined as
 “A holistic management process that identifies potential threats to an organization and the impacts to business operations those threats, if realized, might cause, and which provides a framework for building organizational resilience with the capability of an effective response that safeguards the interests of its key stakeholders, reputation, brand and value-creating activities.”
 (ISO: 22301)
 
-Accenture considers business continuity as part of business as usual activities, and the business continuity program is supported by Policy 1476 and Policy 13.
+company considers business continuity as part of business as usual activities, and the business continuity program is supported by Policy 1476 and Policy 13.
 
 Policy 1476 outlines the requirements for business units to implement appropriate continuity strategies for their business or functional areas to minimize business disruptions.
 
-When it comes to handling a crisis, Policy 13 outlines the crisis management requirements for Accenture and is applied to all geographies. Crisis management is critical for handling major events that could lead to people safety, security risks or business disruption. The Crisis Management team operates at a global, regional and location level. The Crisis Management structure supports a cross section of events from geographic emergencies to cyber events and is a holistic element of the business continuity program.
+When it comes to handling a crisis, Policy 13 outlines the crisis management requirements for company and is applied to all geographies. Crisis management is critical for handling major events that could lead to people safety, security risks or business disruption. The Crisis Management team operates at a global, regional and location level. The Crisis Management structure supports a cross section of events from geographic emergencies to cyber events and is a holistic element of the business continuity program.
 
 In addition to these key policies, there are supporting policies, which include Policy 56 (System Security) that outlines the requirements for securing data and having the correct level of disaster recovery plans for technology systems.
 
 Did You Know?
 
-The Accenture Business Continuity program has been established for well over a decade and is aligned to the International Industry Standard of ISO22301. 
+The company Business Continuity program has been established for well over a decade and is aligned to the International Industry Standard of ISO22301. 
 
 Key Focus Areas
 
 Business continuity is very important to our business, and as our team witnessed, it is essential to have effective Planning and Preparedness in place.
 
-When we created our business continuity plans, we followed the Accenture Delivery Methodology that considers people, workplace and technology systems along with securing the critical assets to continue services.
+When we created our business continuity plans, we followed the company Delivery Methodology that considers people, workplace and technology systems along with securing the critical assets to continue services.
 
 The two major aspects of planning in business continuity aim to address the following key areas:
 1. Understand the business requirements that are critical to continue, identify and assess risks and apply controls to manage them at an acceptable level. 
@@ -55,15 +55,15 @@ Now, we truly understand the saying:
 
 Did You Know?
 
-Accenture’s Infectious Disease Planning is also integrated into the crisis management and business continuity programs to provide a joint approach to any large scale event.
+company’s Infectious Disease Planning is also integrated into the crisis management and business continuity programs to provide a joint approach to any large scale event.
 
 We Plan as disasters do happen!
 
 So with all the theory, do we actually use the plans we prepare, exercise and train for?
 
-Well, in 2015, Accenture faced a number of challenging events that covered safety, security and business disruption outcomes.
+Well, in 2015, company faced a number of challenging events that covered safety, security and business disruption outcomes.
 
-During the monsoon season in Chennai (India), heavy rains, in two separate events, led to the closure of Accenture delivery centers. From a continuity planning point of view, the extreme floods pushed the plans to a breaking point.
+During the monsoon season in Chennai (India), heavy rains, in two separate events, led to the closure of company delivery centers. From a continuity planning point of view, the extreme floods pushed the plans to a breaking point.
 
 The impact to operations was significant, as our people, facilities and technology were all impacted at the same time.
 
@@ -74,7 +74,7 @@ Apart from planning, the next thing that helps us in the moment is ‘Preparedne
 Preparedness is priceless and goes beyond just creating a documented plan. The funny thing about preparedness is that it seems unnecessary under normal conditions, but without preparedness, we'll feel paralyzed during a crisis.
  
 Some key points that are part of your preparation are:
-Who to contact if there is an emergency: There will be several channels available to you depending on your location or plans agreed to. If in doubt, you can reach out to your supervisor or contact the Accenture Security Operations Center (ASOC).
+Who to contact if there is an emergency: There will be several channels available to you depending on your location or plans agreed to. If in doubt, you can reach out to your supervisor or contact the company Security Operations Center (ASOC).
 What to do if your office is closed: Depending on your continuity plan, if your office is closed, then you may need to report to an alternative location.
 Following emergency processes: Understand your location’s emergency processes that could cover anything from local first aid situations, earthquake events, bomb threats and an emergency evacuation.
 
